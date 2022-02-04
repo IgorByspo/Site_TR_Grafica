@@ -1,0 +1,296 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    background-color: #EDF1F7;
+}
+
+#container-logo-contatos{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    margin: 0;
+    width: 130px;
+}
+
+#content-contatos{
+    font-size: 1.05rem;
+    text-align: right;
+    float: right;
+}
+
+#faca-orcamento{
+    margin: 0;
+    margin-top: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.telefone{
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-topo{
+    width: 15px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#nav-bar{
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    
+}
+
+.btt-nav{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin: auto;
+}
+
+.btt-nav:hover{
+    text-decoration: underline;
+}
+
+.separador-vertical{
+    border-left: 1px solid black;
+}
+
+#banner-section{
+    max-width: 100%;
+    margin: auto;
+    display: inline-block;
+    background-size: cover;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.destaques{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: transparent;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+.destaq{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.destaq:hover{
+    text-decoration: underline;
+}
+
+.destaq-img{
+    width: 120px;
+}
+
+.mais-vendidos{
+    display: block;
+    margin-top: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#mais-vendidos-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.produtos-mais-vendidos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.div-produto{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.div-produto:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 4px black;
+}
+
+.div-img-produto{
+    background-image: linear-gradient(to bottom right, #00ACE1, #00ACE1, #0061e1);
+    border-radius: 10px 10px 0 0;
+}
+
+.img-produto{
+    background-color: transparent;
+    width: 200px;
+}
+
+.info-produto{
+    text-align: center;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.nome-produto{
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.a-partir-de{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+
+.valor{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #2165d1;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.qtd-produto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+
+footer{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo-footer{
+    margin: 20px;
+}
+
+.img-logo-footer{
+    width: 100px;
+    
+}
+
+.logo-footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.horario-funcionamento{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 20px;
+}
+
+.img-info-footer{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.endereco{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 20px;
+}
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+
+    .destaques{
+        margin-top: -130px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+
+    #logo{
+        max-width: 100px;
+        margin-top: 16px;
+        
+    }
+
+    #content-contatos{
+        font-size: 13px;
+    }
+
+    #nav-bar{
+        flex-direction: column;
+    }
+
+    .btt-nav{
+        margin-bottom: 10px;
+        padding: 1px;
+    }
+
+    .destaques{
+        max-width: 80%;
+    }
+
+    .img-produto{
+        width: 150px;
+    }
+
+    .img-logo-footer{
+        margin: auto;
+    }
+
+    .horario-funcionamento{
+        margin: auto;
+    }
+
+    .endereco{
+        margin: auto;
+    }
+}
